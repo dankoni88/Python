@@ -29,7 +29,7 @@ class Apprentice:
     @property
     def wanted_magic(self) -> Set:
         return self._magic_to_learn
-#changed
+
     @property
     def mentor(self) -> Wizard:
         return self._mentor
